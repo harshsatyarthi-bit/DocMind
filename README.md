@@ -17,14 +17,14 @@ DocMind allows users to interact with PDF documents through a conversational int
 
 ## Application Screenshots
 
-### 1. Home Interface
-![DocMind Home](home.png)
+### Home Interface
+![DocMind Home](assets/home.png)
 
-### 2. PDF Upload
-![Document Upload](document_upload.png)
+### PDF Upload
+![Document Upload](assets/document_upload.png)
 
-### 3. Chat Interface
-![Chat Result](chat_result.png)
+### Chat Interface
+![Chat Result](assets/chat_result.png)
 
 ## Tech Stack
 
