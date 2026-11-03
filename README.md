@@ -89,7 +89,7 @@ cd DocMind
 Install the required Python packages used by the notebook:
 
 ```bash
-pip install langchain langchain-community langchain-groq langchain-huggingface faiss-cpu sentence-transformers gradio pypdf
+pip install -r requirements.txt
 ```
 
 ### 3. Configure the Groq API Key
