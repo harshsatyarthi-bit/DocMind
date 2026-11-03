@@ -15,6 +15,17 @@ DocMind allows users to interact with PDF documents through a conversational int
 * **Interactive Interface:** Chat with documents through a Gradio interface.
 * **Suggested Questions:** Get started with predefined question suggestions.
 
+## Application Screenshots
+
+### 1. Home Interface
+![DocMind Home](home.png)
+
+### 2. PDF Upload
+![Document Upload](document_upload.png)
+
+### 3. Chat Interface
+![Chat Result](chat_result.png)
+
 ## Tech Stack
 
 | Technology              | Purpose                              |
