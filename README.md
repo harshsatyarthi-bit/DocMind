@@ -26,6 +26,26 @@ DocMind allows users to interact with PDF documents through a conversational int
 ### Chat Interface
 ![Chat Result](assets/chat_result.png)
 
+
+## System Architecture
+
+```mermaid
+flowchart TD
+    A[PDF Document] --> B[PyPDFLoader]
+    B --> C[Text Extraction]
+    C --> D[Recursive Character Text Splitter]
+    D --> E[Hugging Face Embeddings]
+    E --> F[FAISS Vector Database]
+
+    G[User Query] --> H[Similarity Search]
+    F --> H
+    H --> I[Retrieved Context]
+    I --> J[Groq LLM]
+    J --> K[Generated Answer]
+    K --> L[Source Page References]
+    L --> M[Gradio Interface]
+```
+
 ## Tech Stack
 
 | Technology              | Purpose                              |
